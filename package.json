@@ -1,0 +1,24 @@
+{
+  "name": "projekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-local": "webpack-dev-server --env.local --progress --hot --port 3000 --open",
+    "start": "webpack-dev-server --progress --hot --port 3000 --open"
+  },
+  "author": "christin",
+  "license": "ISC",
+  "dependencies": {
+    "deck.gl": "^4.1.5",
+    "luma.gl": "^4.0.5",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-map-gl": "^3.0.0"
+  },
+  "devDependencies": {
+    "buble-loader": "^0.4.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}
